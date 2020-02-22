@@ -5,7 +5,7 @@ let eStatico="static";
 let dInamico="dynamic_cache-v0.02";
 
 const presentacion=[
-         "/",
+      //   "/",
 "index.html",
 "img/avatars/hulk.jpg",
 "img/avatars/ironman.jpg",
@@ -28,7 +28,7 @@ e.addAll(presentacion).then(e=>{
          console.log("Se guardo a la perfecsion",e)
  }).catch(e=>
          
-         console.log("error durante el almacenamiento",e.target.result))
+         console.log("error durante el almacenamiento"))
 );
 
 const inmutable=caches.open(iNmutable).then(e=>
