@@ -11,6 +11,10 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /*modificaciones para ios*/
+    -webkit-user-select: none;
+  overscroll-behavior:contain;
+  /*fin de las modificaiones para Ios*/
 }
 
 /* Personalizados */
@@ -181,7 +185,7 @@ textarea {
       opacity: 1; 
     }
   
-  .bubble-container {
+  .bubble-container{
     width: 75%;
     display: block;
     position: relative;

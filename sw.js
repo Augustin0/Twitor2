@@ -1,6 +1,6 @@
 importScripts('./sw_copy.js');
 
-let iNmutable="intable_cache-v0.04";
+let iNmutable="intable_cache-v0.05";
 let eStatico="static";
 let dInamico="dynamic_cache-v0.02";
 
